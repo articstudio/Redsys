@@ -1,0 +1,22 @@
+{
+    "name": "articstudio/redsys",
+    "description": "Redsys library",
+    "keywords": ["redsys"],
+    "homepage": "https://github.com/articstudio/Redsys",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Marc Mascort Bou",
+            "email": "marc@articstudio.com",
+            "homepage": "http://www.articstudio.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Articstudio\\Redsys\\": "src/"
+        }
+    }
+}
