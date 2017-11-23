@@ -1,6 +1,7 @@
 {
     "name": "articstudio/redsys",
     "description": "Redsys library",
+    "type": "library",
     "keywords": ["redsys"],
     "homepage": "https://github.com/articstudio/Redsys",
     "license": "MIT",
@@ -8,7 +9,7 @@
         {
             "name": "Marc Mascort Bou",
             "email": "marc@articstudio.com",
-            "homepage": "http://www.articstudio.com"
+            "homepage": "https://articstudio.com"
         }
     ],
     "require": {
@@ -18,5 +19,8 @@
         "psr-4": {
             "Articstudio\\Redsys\\": "src/"
         }
+    },
+    "archive": {
+        "exclude": ["/demo"]
     }
 }
