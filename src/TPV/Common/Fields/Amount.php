@@ -25,8 +25,7 @@ abstract class Amount extends Field
       {
         $value = round($this->value, 2, PHP_ROUND_HALF_UP);
       }
-      $value *= 100;
-      //$this->normalized = str_pad($value, 12, '0', STR_PAD_LEFT);
+      $value = intval($value * 100);
       $this->normalized = $value;
     }
     else
